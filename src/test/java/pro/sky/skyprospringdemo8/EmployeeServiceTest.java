@@ -12,6 +12,7 @@ import static pro.sky.skyprospringdemo8.generator.EmployeeGenerator.*;
 
 class EmployeeServiceTest {
 
+
     private final EmployeeService employeeService = new EmployeeService();
 
     @Test

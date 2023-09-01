@@ -4,6 +4,7 @@ import pro.sky.skyprospringdemo8.entity.Employee;
 
 public class EmployeeGenerator {
 
+
     public static final String IVAN_FIRST_NAME = "Ivan";
     public static final String IVAN_LAST_NAME = "Ivanov";
     public static final double IVAN_SALARY = 790;
