@@ -20,6 +20,7 @@ import static pro.sky.skyprospringdemo8.generator.EmployeeGenerator.*;
 @ExtendWith(MockitoExtension.class)
 class DepartmentServiceTest {
 
+
     @Mock
     private EmployeeService employeeService;
 

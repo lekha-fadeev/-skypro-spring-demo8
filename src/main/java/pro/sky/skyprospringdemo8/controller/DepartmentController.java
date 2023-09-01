@@ -12,6 +12,7 @@ import java.util.Map;
 @RequestMapping("/departments")
 public class DepartmentController {
 
+
     @ExceptionHandler({HttpStatusCodeException.class})
     public String handleException(HttpStatusCodeException e) {
         return "Code: " + e.getStatusCode() + ". Error: " + e.getMessage();
